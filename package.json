@@ -1,0 +1,16 @@
+{
+  "name": "desktop-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/"
+  },
+  "author": "Yevhenii",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.46.0-sdk",
+    "nw-builder": "^3.5.7"
+  }
+}
